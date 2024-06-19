@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <div className="border-y border-r rounded-e-md border-secondary shadow-lg shadow-black/50">
       <nav>
-        <ul className="flex  flex-col justify-center items-center gap-8 px-4 py-7 text-3xl">
+        <ul className="flex flex-col justify-center items-center text-white gap-8 px-4 py-7 text-3xl">
           <Link
             href={"/"}
             className={`${
